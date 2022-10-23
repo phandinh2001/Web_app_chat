@@ -1,0 +1,103 @@
+.header {
+  font-weight: 600;
+  margin: 10px;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  font-size: 30px;
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+.container {
+  display: flex;
+}
+.left-content {
+  flex: 1;
+}
+.right-content {
+  flex: 2;
+}
+.right-main-content {
+  display: flex;
+}
+
+.title_login,.title_register{
+  margin-left: 250px;
+}
+
+
+.form_Login {
+  width: 40%;
+  border-radius: 10px;
+  height: 35%;
+  margin-top: 100px;
+  margin-left: 400px;
+  background-color: rgba(199, 192, 192, 0.7);
+  padding: 20px;
+}
+.form_register{
+  width: 45%;
+  border-radius: 10px;
+  height: 450px;
+  margin-top: 100px;
+  margin-left: 400px;
+  background-color: rgba(199, 192, 192, 0.7);
+  padding: 20px;
+}
+input[type=email], input[type=password] {
+  outline: none;
+  outline-color: rgba(0, 0, 0, 0);
+  width: 400px;
+  display: inline-block;
+  background-color: rgba(0, 0, 0, 0);
+  border: solid 1px gray;
+  padding: 12px 10px;
+  margin: 8px 0;
+  /* border-bottom: 3px solid lightgray; */
+  color: white;
+}
+input[type=email]{
+  margin: 30px;
+}
+input[name = inputPasswordLogin]{
+  margin-left: 7px;
+}
+input[name = inputEmailRegister]  {
+  margin-left: 83px;
+}
+input[name = inputPasswordRegister] {
+  margin-left: 60px;
+}
+input[name = inputComfirmPassword] {
+ margin-top: 30px;
+}
+
+
+.btnLogin, .btnRegister {
+  width: 32%;
+  margin-left: 75px;
+  padding: 10px 0;
+  border: none;
+  border-radius: 5px;
+  background-color: rgb(255, 121, 72);
+  cursor: pointer;
+}
+.btnGotoRegister, .btnGotoLogin {
+  width: 32%;
+  border-radius: 5px;
+  border: none;
+  padding: 10px;
+  margin: 35px ;
+  background-color: #04aa6d;
+  cursor: pointer;
+}
+
+
+button:hover {
+  opacity: 0.8;
+}
+
+
+
